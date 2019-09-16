@@ -23,16 +23,12 @@ const App = (props) => {
   const handleClick = () => {  
     const newSelected = Math.floor(Math.random() * anecdotes.length)  
     setSelected(newSelected)  
-   
-    console.log(newSelected)
   }
 
   const handleVoteClick =(props) => {  
     
     let arrIndex =anecdotes.indexOf(anecdotes[selected])
-
-    console.log('Index is', arrIndex)
-    
+  
     votesKount = arrAnectodes[arrIndex]
     
     votesKount += 1

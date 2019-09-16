@@ -41,7 +41,7 @@ const App = (props) => {
     <div>     
       {props.anecdotes[selected]}<br />
       has {voted} votes <br />
-      <button onClick={handleVoteClick}>vote</button><br />
+      <button onClick={handleVoteClick}>vote</button>
       <button onClick={handleClick}>next anecdote</button>
     </div>
   )
